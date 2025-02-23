@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "760340654864",
+    "firebase_url": "https://chassis-sheet-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chassis-sheet-app",
+    "storage_bucket": "chassis-sheet-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760340654864:android:988794bd0504bcbe03d395",
+        "android_client_info": {
+          "package_name": "com.example.chassis_sheet_app_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiA-peNc5-4KyhduM9bNL8u_8tG_pJbXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
