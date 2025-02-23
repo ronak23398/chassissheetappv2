@@ -9,6 +9,7 @@ class CheckpointModel {
   final String remark;
   final bool isImageType;
   final String? imagePath; // Store path to the image
+  final bool isLocalImage;
 
   CheckpointModel({
     required this.id,
@@ -21,6 +22,7 @@ class CheckpointModel {
     this.remark = '',
     this.isImageType = false,
     this.imagePath,
+    this.isLocalImage = false,
   });
 
   CheckpointModel copyWith({
@@ -32,6 +34,7 @@ class CheckpointModel {
     String? remark,
     bool? isImageType,
     String? imagePath,
+    bool? isLocalImage,
   }) =>
       CheckpointModel(
         id: id,
@@ -44,6 +47,7 @@ class CheckpointModel {
         remark: remark ?? this.remark,
         isImageType: isImageType ?? this.isImageType,
         imagePath: imagePath ?? this.imagePath,
+        isLocalImage: isLocalImage ?? this.isLocalImage,
       );
 
   Map<String, dynamic> toJson() => {
